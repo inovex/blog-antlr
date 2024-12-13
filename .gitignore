@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/__pycache__/
+**/.antlr/
+*.py[cod]
+*$py.class
+
+# Editors
+.vscode/
+.idea/
+
+# Mac/OSX
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# notes md
+notes.md
+
+# Ignore antl directory except Grammar file and __init__.py
+antlr/*
+!antlr/Calculator.g4
+!antlr/__init__.py
